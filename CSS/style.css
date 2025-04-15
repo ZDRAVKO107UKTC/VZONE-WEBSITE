@@ -1,0 +1,57 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.card {
+    border-radius: 1rem;
+}
+.btn {
+    font-weight: 600;
+}
+.nav-link.active {
+    font-weight: 700;
+    color: #0d6efd !important;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+.nav-link.active {
+    font-weight: 600;
+    color: #0d6efd !important;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.nav-link.active {
+    font-weight: 600;
+    color: #0d6efd !important;
+}
+.card input[type="number"] {
+    max-width: 100px;
+}
+.card {
+    border-radius: 1rem;
+}
+.btn {
+    font-weight: 600;
+}
+.alert a {
+    text-decoration: underline;
+}
+.card-title {
+    font-weight: 600;
+}
+.list-group-item {
+    font-size: 0.95rem;
+}
+form input, form select {
+    max-width: 500px;
+}
