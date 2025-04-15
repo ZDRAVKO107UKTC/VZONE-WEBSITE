@@ -74,6 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Update the item
     $stmt = $conn->prepare("UPDATE menu_items SET name=?, description=?, price=?, is_new=?, is_featured=?, image=? WHERE id=?");
     $stmt->bind_param("ssdiiis", $name, $desc, $price, $is_new, $is_featured, $new_image, $id);
+
     $stmt->execute();
 
     $_SESSION['success'] = "Ястието беше обновено успешно!";
